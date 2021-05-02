@@ -1,0 +1,17 @@
+ssh_service=https://webserver1.verizon.com:22/simpletest1
+apache2_service=https://webserver2.verizon.com:80/simpletest2
+faulty_service3=http://webserver3.verizon.com:25/simpletest3
+faulty_service4=http://webserver4.verizon.com/simpletest4
+faulty_service5_siddharth_gopal_patel=https://webserver5.verizon.com/simpletest5
+faulty_service6=something://webserver6.verizon.com/simpletest6
+faulty_service7=https://webserver7.verizon.com/simpletest7
+faulty_service8=https://webserver8.verizon.com:5500
+faulty_service9=https://webserver9.verizon.com:5500/one=more/onemore/
+faulty_service10=https://webserver10.verizon.com/simple=test8/onemore
+faulty_service11=https://webserver11/
+faulty_service12=https://webserver12:80
+faulty_service13=https://webserver13/
+faulty_service14=https://webserver14:80/
+faulty_service15=https://webserver15
+faulty_service16=https://webserver16-uat.ebiz.verizon.com/inventory-interface-service/entitites/getEntitiesDeatils/onemore
+SMTP_SERVER=vzsmtplat.verizon.com

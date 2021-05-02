@@ -1,0 +1,19 @@
+You can clone the Repository or fork the repository
+
+Run the code by 'python connectivity_test.py'. This program is compatible for both python2 and python3
+
+After runing, you will get three options -
+
+"Press 1 for URL service type connectivity test
+Press 2 for Manual configuration type connectivity test
+Press 3 for giving input of host and port from keyboard everytime"
+
+Enter 1 if your configuration containing URL service type.
+
+For Example - some_service_type = https://servername.domain.name:port/other/information
+
+Enter 2 if your configuration containing manual inputs type.
+
+For Example - some_service_type,some_server_name:port
+
+Enter 3 if you wish to input the host name and port from key borad one by one

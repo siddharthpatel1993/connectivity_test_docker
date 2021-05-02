@@ -1,0 +1,37 @@
+ssh_service=https://webserver1.verizon.com:22/simpletest1
+
+apache2_service=https://webserver2.verizon.com:80/simpletest2
+
+#25 port in not open, shouldn't connect
+faulty_service3=http://webserver3.verizon.com:25/simpletest3
+
+#http protcol &  port is not mentioned. Should take default 80
+faulty_service4=http://webserver4.verizon.com/simpletest4
+
+#https protcol &  port is not mentioned. Should take default 443
+faulty_service5_siddharth_gopal_patel=https://webserver5.verizon.com/simpletest5
+
+#neither http nor https protocol, should tell the same
+faulty_service6=something://webserver6.verizon.com/simpletest6
+
+#putting space in the line, shouldn't throw problem
+faulty_service7 = https://webserver7.verizon.com/simpletest7
+
+#just mentioned server name with port
+faulty_service8 = https://webserver8.verizon.com:5500
+
+#mention one extra slace at the last (not working as designed)
+faulty_service9 = https://webserver9.verizon.com:5500/one=more/onemore/
+
+#mention one extra slace at the last (not working as designed)
+faulty_service10 = https://webserver10.verizon.com/simple=test8/onemore
+
+#just mentioned server name (no fqdn) without port
+faulty_service11 = https://webserver11/
+
+faulty_service12 = https://webserver12:80
+faulty_service13 = https://webserver13/
+faulty_service14 = https://webserver14:80/
+faulty_service15 = https://webserver15
+faulty_service16=https://webserver16-uat.ebiz.verizon.com/inventory-interface-service/entitites/getEntitiesDeatils/onemore
+SMTP_SERVER = vzsmtplat.verizon.com

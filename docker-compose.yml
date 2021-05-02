@@ -1,0 +1,26 @@
+version: "3.7"
+
+services:
+  webserver:
+    build:
+      context: webserver/
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    tty: true
+    container_name: webserver
+  
+  webserver.verizon.com:
+    build:
+      context: webserver/
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    tty: true
+    container_name: webserver.verizon.com
+
+  testserver:
+    build:
+      context: testserver/
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    tty: true
+    container_name: testserver
