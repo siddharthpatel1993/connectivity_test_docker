@@ -221,7 +221,7 @@ def manual_input():
 
     for i in range (n):
         count = i + 1
-        host = str(input("Enter the host\n"))
+        host = str(input("Enter the "+ str(count) +" host\n"))
         port = str(input("Enter the port\n"))
 
         y = subprocess.call("nc -vz -w 5 "+ host +" "+ port +"", shell=True)
